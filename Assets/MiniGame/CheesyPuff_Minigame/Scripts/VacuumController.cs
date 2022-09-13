@@ -64,7 +64,7 @@ public class VacuumController : MonoBehaviour
         }
         else if (GameManager.state == GameState.Play)
         {
-            activeVacuum.Interact();
+            activeVacuum.Interact(); 
         }
     }
 

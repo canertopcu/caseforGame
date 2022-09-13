@@ -1677,6 +1677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMissionCompleted: 0
+  lookAtPoint: {fileID: 1765037456}
   collectPoint: {fileID: 224210231}
   Interactable: {fileID: 727543175}
 --- !u!65 &717471358
@@ -1787,7 +1788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 625143634404238269, guid: a5dc0316c397a7448967fae0977b9757, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.028
+      value: -0.287
       objectReference: {fileID: 0}
     - target: {fileID: 625143634404238269, guid: a5dc0316c397a7448967fae0977b9757, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1795,7 +1796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 625143634404238269, guid: a5dc0316c397a7448967fae0977b9757, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.198
+      value: -1.039
       objectReference: {fileID: 0}
     - target: {fileID: 625143634404238269, guid: a5dc0316c397a7448967fae0977b9757, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3138,6 +3139,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 625143634404238269, guid: a5dc0316c397a7448967fae0977b9757, type: 3}
   m_PrefabInstance: {fileID: 1737088238}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1765037455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1765037456}
+  m_Layer: 0
+  m_Name: LookAt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1765037456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765037455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.47, y: 0.21, z: -1.13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1830368485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10274,7 +10305,7 @@ MonoBehaviour:
   async: 0
   downsampleSteps: 3
   registeredPaintableTexture: {fileID: 1728090475192092740}
-  cooldown: -140.48228
+  cooldown: -148.00812
   currentReader:
     dirty: 1
     requested: 0
@@ -10333,7 +10364,7 @@ MonoBehaviour:
   async: 1
   downsampleSteps: 3
   registeredPaintableTexture: {fileID: 1728090475192092740}
-  cooldown: -60.92991
+  cooldown: -68.4553
   currentReader:
     dirty: 0
     requested: 0
