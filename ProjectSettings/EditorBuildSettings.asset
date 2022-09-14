@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/MiniGames/CheesyPuff/Scenes/CheesyPuff.unity
+    guid: 0aaf7aa61e5bc6f4ebfee25df807eb52
+  - enabled: 1
+    path: Assets/MiniGames/LaserDodge/Scenes/Laser.unity
+    guid: 8fe83ba26321b6a44907222e5abac93d
   m_configObjects: {}
